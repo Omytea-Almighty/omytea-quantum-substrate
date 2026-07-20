@@ -1,9 +1,11 @@
 # Omytea Quantum Substrate
 
+> **Organization source of truth:** [`Omytea-Almighty/omytea-quantum-substrate`](https://github.com/Omytea-Almighty/omytea-quantum-substrate). Humans and agents must read [`ORG-SYNC.md`](ORG-SYNC.md) before working. Reviewed commits are queued for fail-closed organization sync; automation never stages or commits dirty work and never changes visibility.
+
 [![PyPI](https://img.shields.io/pypi/v/omytea-quantum-substrate.svg)](https://pypi.org/project/omytea-quantum-substrate/)
 [![Python](https://img.shields.io/pypi/pyversions/omytea-quantum-substrate.svg)](https://pypi.org/project/omytea-quantum-substrate/)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
-[![CI](https://github.com/Adonyth/omytea-quantum-substrate/actions/workflows/ci.yml/badge.svg)](https://github.com/Adonyth/omytea-quantum-substrate/actions/workflows/ci.yml)
+[![CI](https://github.com/Omytea-Almighty/omytea-quantum-substrate/actions/workflows/ci.yml/badge.svg)](https://github.com/Omytea-Almighty/omytea-quantum-substrate/actions/workflows/ci.yml)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20293619.svg)](https://doi.org/10.5281/zenodo.20293619)
 
 Quantum-information substrate for the **Omytea world-model system**. Stdlib + NumPy only — no SciPy, no Torch, no JAX, no GPU. Apache 2.0.
@@ -117,14 +119,14 @@ See [`examples/basic_usage.py`](examples/basic_usage.py) for a runnable version.
 
 - **Not a quantum-computing library.** No quantum gates, no qubits, no Pauli ops. The names borrow from quantum-information formalism; the implementation is classical.
 - **Not a perception or vision library.** Substrate consumes detection bounding boxes; it doesn't produce them.
-- **Not a vision-language interface.** That's downstream — see the [Personal Future Console](https://github.com/Adonyth/omytea-personal-console) for an end-to-end product built on this substrate.
+- **Not a vision-language interface.** That's downstream — see the [Personal Future Console](https://github.com/Omytea-Almighty/omytea-personal-console) for an end-to-end product built on this substrate.
 - **Not a deep-learning library.** No PyTorch / JAX / TensorFlow dep. Substrate runs in CPython 3.11+ with zero compiled extensions.
 
 ## Companion product
 
 The first end-to-end application built on this substrate:
 
-**🚀 [Omytea Personal Future Console](https://github.com/Adonyth/omytea-personal-console)**  
+**🚀 [Omytea Personal Future Console](https://github.com/Omytea-Almighty/omytea-personal-console)**
 Live demo: <https://omytea-personal-console.streamlit.app>
 
 A Streamlit app that takes natural-language decision queries or short videos, runs the substrate's perception + joint-wavefunction + Lindblad evolution, and produces calibrated probability distributions over short-horizon scene futures.
@@ -147,7 +149,7 @@ If you use the substrate in research, please cite it via the [`CITATION.cff`](CI
 
 The DOI [`10.5281/zenodo.20293619`](https://doi.org/10.5281/zenodo.20293619) is the **concept DOI** — it resolves to the latest archived version (currently v0.1.2). Each individual version also gets its own DOI on the Zenodo page; pin to one if your work requires version-locked reproducibility.
 
-The companion paper *Omytea Video World Console — Quantum-Operator Evolution over Streaming Belief States* (draft v0.1) lives in the Personal Future Console repo at [`docs/papers/OMYTEA_VIDEO_CONSOLE_DRAFT.md`](https://github.com/Adonyth/omytea-personal-console/blob/main/docs/papers/OMYTEA_VIDEO_CONSOLE_DRAFT.md).
+The companion paper *Omytea Video World Console — Quantum-Operator Evolution over Streaming Belief States* (draft v0.1) lives in the Personal Future Console repo at [`docs/papers/OMYTEA_VIDEO_CONSOLE_DRAFT.md`](https://github.com/Omytea-Almighty/omytea-personal-console/blob/main/docs/papers/OMYTEA_VIDEO_CONSOLE_DRAFT.md).
 
 ## License
 
@@ -155,7 +157,7 @@ Apache License 2.0. See [`LICENSE`](LICENSE).
 
 ## Contributing
 
-Issues and pull requests welcome. The substrate is deliberately minimal — additions should preserve the **pure-stdlib** constraint and the **typed-dataclass** convention. See the consoles' [`CONTRIBUTING.md`](https://github.com/Adonyth/omytea-personal-console/blob/main/CONTRIBUTING.md) for the broader Omytea project's contribution guidance (same fits/doesn't-fit rules apply).
+Issues and pull requests welcome. The substrate is deliberately minimal — additions should preserve the **pure-stdlib** constraint and the **typed-dataclass** convention. See the consoles' [`CONTRIBUTING.md`](https://github.com/Omytea-Almighty/omytea-personal-console/blob/main/CONTRIBUTING.md) for the broader Omytea project's contribution guidance (same fits/doesn't-fit rules apply).
 
 ## Versioning
 
