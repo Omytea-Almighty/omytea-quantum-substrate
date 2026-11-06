@@ -1,10 +1,5 @@
 # Omytea Quantum Substrate
 
-<!-- OMYTEA_ORG_SYNC_README_START -->
-> **Organization source of truth:** [`Omytea-Almighty/omytea-quantum-substrate`](https://github.com/Omytea-Almighty/omytea-quantum-substrate). Humans and agents must read [`ORG-SYNC.md`](ORG-SYNC.md) before working. Managed commit/rewrite hooks queue reviewed commits; ordinary direct push is denied; registered linked worktrees are supported. Automation never stages or commits dirty work, changes visibility, or bypasses hooks.
-> This repository is public: every intentional commit is a publication decision. Secret scanning is not a privacy, PII, licensing, research, or commercial-sensitivity review.
-<!-- OMYTEA_ORG_SYNC_README_END -->
-
 [![PyPI](https://img.shields.io/pypi/v/omytea-quantum-substrate.svg)](https://pypi.org/project/omytea-quantum-substrate/)
 [![Python](https://img.shields.io/pypi/pyversions/omytea-quantum-substrate.svg)](https://pypi.org/project/omytea-quantum-substrate/)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
@@ -167,3 +162,10 @@ Issues and pull requests welcome. The substrate is deliberately minimal — addi
 Semantic versioning. v0.x releases may introduce breaking changes between minor versions until the API surface stabilizes. From v1.0, breaking changes will be reserved for major versions.
 
 See [`CHANGELOG.md`](CHANGELOG.md) for release notes.
+
+---
+
+<!-- OMYTEA_ORG_SYNC_README_START -->
+> **Organization source of truth:** [`Omytea-Almighty/omytea-quantum-substrate`](https://github.com/Omytea-Almighty/omytea-quantum-substrate). Humans and agents must read [`ORG-SYNC.md`](ORG-SYNC.md) before working. Managed commit/rewrite hooks queue reviewed commits; ordinary direct push is denied; registered linked worktrees are supported. Automation never stages or commits dirty work, changes visibility, or bypasses hooks.
+> This repository is public: every intentional commit is a publication decision. Secret scanning is not a privacy, PII, licensing, research, or commercial-sensitivity review.
+<!-- OMYTEA_ORG_SYNC_README_END -->
