@@ -61,11 +61,11 @@ dev = [
 
 
 [project.urls]
-Homepage = "https://github.com/Adonyth/omytea-quantum-substrate"
-Repository = "https://github.com/Adonyth/omytea-quantum-substrate"
-Issues = "https://github.com/Adonyth/omytea-quantum-substrate/issues"
-Changelog = "https://github.com/Adonyth/omytea-quantum-substrate/blob/main/CHANGELOG.md"
-"Companion Product" = "https://github.com/Adonyth/omytea-personal-console"
+Homepage = "https://github.com/Omytea-Almighty/omytea-quantum-substrate"
+Repository = "https://github.com/Omytea-Almighty/omytea-quantum-substrate"
+Issues = "https://github.com/Omytea-Almighty/omytea-quantum-substrate/issues"
+Changelog = "https://github.com/Omytea-Almighty/omytea-quantum-substrate/blob/main/CHANGELOG.md"
+"Companion Product" = "https://github.com/Omytea-Almighty/omytea-personal-console"
 "Live Demo" = "https://omytea-personal-console.streamlit.app"
 
 

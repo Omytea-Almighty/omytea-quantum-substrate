@@ -7,8 +7,8 @@ authors:
     email: lewxam0102@gmail.com
 type: software
 license: Apache-2.0
-repository-code: "https://github.com/Adonyth/omytea-quantum-substrate"
-url: "https://github.com/Adonyth/omytea-quantum-substrate"
+repository-code: "https://github.com/Omytea-Almighty/omytea-quantum-substrate"
+url: "https://github.com/Omytea-Almighty/omytea-quantum-substrate"
 doi: 10.5281/zenodo.20293619
 version: 0.1.2
 date-released: 2026-05-19
